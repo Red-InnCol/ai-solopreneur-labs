@@ -1,0 +1,6 @@
+/* Approved two-card layout; retain all other shared styling. */
+.theme-cinematic [data-slide="15"] .mode-cards { grid-template-columns:repeat(2,minmax(0,1fr)); min-height:48vh; }
+.theme-cinematic [data-slide="15"] .mode-cards article:last-child { background:var(--brown); color:var(--card); border-color:var(--gold); }
+.theme-cinematic [data-slide="15"] .mode-cards b { line-height:1.12; }
+.theme-cinematic [data-slide="15"] .mode-cards b small { display:block; margin-top:12px; font:inherit; font-size:30px; letter-spacing:normal; }
+.theme-cinematic [data-slide="15"] .mode-cards span { line-height:1.3; }
