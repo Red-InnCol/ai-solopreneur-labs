@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 560" width="1160" height="560">
+  <title>Website with a minimal contact form</title>
+  <desc>A contact page with first name, last name and email address fields, and a Submit button.</desc>
+  <defs>
+    <clipPath id="window">
+      <rect x="1" y="1" width="1148" height="548" rx="19"/>
+    </clipPath>
+  </defs>
+  <rect x="10" y="10" width="1150" height="550" rx="20" fill="#704b37" opacity=".14"/>
+  <g clip-path="url(#window)" font-family="Arial, Helvetica, sans-serif" fill="#223630">
+    <rect x="1" y="1" width="1148" height="548" fill="#edf3ef"/>
+    <path d="M1 1h1148v50H1z" fill="#e9e6df"/>
+    <g fill="#9a8f83">
+      <circle cx="27" cy="26" r="5"/>
+      <circle cx="45" cy="26" r="5"/>
+      <circle cx="63" cy="26" r="5"/>
+    </g>
+    <rect x="385" y="12" width="380" height="28" rx="8" fill="#fdfcf9" stroke="#d7d0c5"/>
+    <text x="575" y="31" text-anchor="middle" font-size="15" fill="#594f47">example.com/contact</text>
+
+    <path d="M1 51h1148v62H1z" fill="#fff"/>
+    <path d="M1 113h1148" stroke="#d3ded6"/>
+    <rect x="37" y="70" width="24" height="24" rx="6" fill="#216457"/>
+    <path d="M43 86l6-8 6 8" fill="none" stroke="#fff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="73" y="89" font-size="22" font-weight="700">Example Co.</text>
+    <text x="1086" y="88" text-anchor="end" font-size="18" font-weight="700" fill="#216457">Contact</text>
+
+    <rect x="235" y="137" width="680" height="387" rx="15" fill="#fff" stroke="#d3ded6" stroke-width="1.5"/>
+    <text x="279" y="201" font-family="Georgia, 'Times New Roman', serif" font-size="45">Get in touch</text>
+    <g font-size="22" font-weight="700">
+      <text x="279" y="248">First name</text>
+      <text x="589" y="248">Last name</text>
+      <text x="279" y="354">Email address</text>
+    </g>
+    <g fill="#fff" stroke="#9daaa2" stroke-width="1.7">
+      <rect x="279" y="262" width="282" height="56" rx="8"/>
+      <rect x="589" y="262" width="282" height="56" rx="8"/>
+      <rect x="279" y="368" width="592" height="56" rx="8"/>
+    </g>
+    <rect x="279" y="450" width="140" height="49" rx="8" fill="#216457"/>
+    <text x="349" y="482" text-anchor="middle" font-size="21" font-weight="700" fill="#fff">Submit</text>
+  </g>
+  <rect x="1" y="1" width="1148" height="548" rx="19" fill="none" stroke="#704b37" stroke-width="2"/>
+</svg>
